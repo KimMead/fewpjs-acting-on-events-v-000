@@ -6,10 +6,10 @@ dodger.style.bottom = "0px";
 document.addEventListener("keydown", function(e) {
   if (e.key === "ArrowLeft") {
     moveDodgerLeft();
-
+  }
   if (e.key === "ArrowRight") {
     moveDodgerRight();
-  }}
+  }
 });
 
 function moveDodgerLeft() {
